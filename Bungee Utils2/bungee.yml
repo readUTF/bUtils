@@ -1,0 +1,4 @@
+name: bUtils
+author: readUTF
+version: b7
+main: org.readutf.butils.Main

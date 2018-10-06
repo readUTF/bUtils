@@ -1,0 +1,77 @@
+#    __        __    __    __      __  __           
+#   /  |      /  |  /  |  /  |    /  |/  |          
+#   $$ |____  $$ |  $$ | _$$ |_   $$/ $$ |  _______ 
+#   $$      \ $$ |  $$ |/ $$   |  /  |$$ | /       |
+#   $$$$$$$  |$$ |  $$ |$$$$$$/   $$ |$$ |/$$$$$$$/ 
+#   $$ |  $$ |$$ |  $$ |  $$ | __ $$ |$$ |$$      \ 
+#   $$ |__$$ |$$ \__$$ |  $$ |/  |$$ |$$ | $$$$$$  |
+#   $$    $$/ $$    $$/   $$  $$/ $$ |$$ |/     $$/ 
+#   $$$$$$$/   $$$$$$/     $$$$/  $$/ $$/ $$$$$$$/  
+ 
+
+
+#DO NOT CHANGE THIS!
+CONFIG-VERSION: 'B6'
+
+#Format for player reports
+REPORT: '&8(&6Report&8) (&6%server%&8) &6%name% &e has reported &6%target% &efor &6%reason%'
+
+#Format for player staffchat
+STAFFCHAT-FORMAT: '&8(&6Staff-Chat&8) &8(&6%server%&8) &6%name%: &e%message%'
+
+#Format for staff join message
+STAFF-JOIN: '&8(&6Staff&8) &6%player% &7has joined &6%server%'
+
+#In-Cooldown message
+COOLDOWN: '&cYou are still in cooldown, please wait %cooldown%s'
+
+#Format for player requests
+REQUEST-FORMAT: '&8(&6Request&8) &8(&6%player%&8) &e%msg%'
+
+#Successful Report Message
+SUCCESSFULL-REPORT: '&aThank you for your report, all staff have been notified.'
+
+#Successful Request Message
+SUCCESSFULL-REQUEST: '&aYour report has been submited, all staff have been notified.'
+
+#Global Broadcast Message Format
+BROADCAST-FORMAT: '&8[&4Alert&8] &f%msg%'
+
+#Toggled StaffChat Message
+TOGGLED-STAFFCHAT: '&aStaff chat has been toggled %status%.'
+
+MOTD: 'test'
+  
+
+#Whitelist Settings
+WHITELIST:
+
+  #Whether whitelist is enable or disabled
+  ENABLED: false
+  
+  #Players Currently whitelisted
+  PLAYERS: []
+  
+  #Player kick message
+  KICK-MESSAGE:
+  - '&c&lDisconnected'
+  - ''
+  - '&cThe server is currently whitelisted'
+  
+  #Global Whitelist Activation Message
+  ACTIVATION-MESSAGE:
+  - ''
+  - '&cMaintanance mode has been actived'
+  - ''
+  
+  #Global Whitelist De-Activation Message
+  DEACTIVATION-MESSAGE:
+  - ''
+  - '&aMaintanance mode has been deactived'
+  - ''
+  
+  #Message displaced over server player count when whitelisted
+  PLAYERCOUNT-MESSAGE: '&4Whitelisted'
+  
+  #Motd when whitelist is enabled
+  MOTD: 'test'
